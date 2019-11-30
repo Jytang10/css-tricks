@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #1 Remove pointer clicker upon animation fade completion */
+
+/* div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div button {
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  background: cornflowerblue;
+  border: none;
+  cursor: pointer;
+} */
+
+/* button {
+  animation: fade 1s ease forwards
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+    pointer-events: all;
+  }
+  to {
+    opacity: 0;
+    pointer-events: none;
+  }
+} */
+
+/* #2 Display block vs. inline*/
+
+/* h1 {
+  height: 10rem;
+  margin: 10rem;
+}
+
+a {
+  height: 10rem;
+  width: 20rem;
+  height and width wont be changed for inline block element 
+} */
+
+/* #3 How to center or modify margin of parent container div. Line height to center text vertically*/
+
+/* div {
+  width: 80%;
+  height: 100vh;
+  background: lightblue;
+  text-align: center;
+  margin: auto;
+  line-height: 100vh;
+} */
+
+/* #4 Change text color of highlighted cursur text */
+
+p::selection {
+  background-color: purple;
+  color: white;
+}
+
+/* #5 Make first letter larger */
+
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* #6 Smooth scroll behavior without JS */
+
+/* html {
+  scroll-behavior: smooth;
+}
+
+div,
+section {
+  height: 100vh;
+} */
+
+/* #7 Dark mode */
+
+/* a {
+  font-size: 5rem;
+  color: rgb(168, 50, 69)
+}
+
+html {
+  background: black;
+  filter: invert(1) hue-rotate(180deg);
+} */
+
+/* #7 Change font size quickly */
+
+/* html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
+} */
+
+/* #8 Stack box shadows and animations */
+
+div {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 40px 40px rgba(0, 0, 0, 0.5);
+  animation: fade 1s ease, fade 1s ease;
+}
+
+/* #9 Add gradient to text */ 
+
+h1 {
+  font-size: 4rem;
+  background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 106, 213));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
